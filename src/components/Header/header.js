@@ -6,8 +6,9 @@ import "./header.css"
 
 const Header = () => (
   <div className="header-nav">
-        <Link className="header-nav-links" to="/">(KC)</Link>    
+        <Link className="header-nav-links" to="/">{'{ KC }'}</Link>    
         <Spacer />
+        <Link className="header-nav-links header-whats-next" to="/about/">What's next?</Link>
         <Link className="header-nav-links" to="/about/">About</Link>
         <Link className="header-nav-links" to="/blog/">Blog</Link>
         <Link className="header-nav-links" to="/portfolio/">Portfolio</Link>

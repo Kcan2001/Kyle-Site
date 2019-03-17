@@ -21,3 +21,12 @@
     text-align: center;
     align-self: center;
 }
+
+.header-nav-links:hover {
+    color: black;
+    background-color: white;
+}
+
+.header-whats-next {
+    color: #e60000
+}

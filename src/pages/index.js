@@ -12,7 +12,7 @@ const IndexPage = () => (
       <Video />
       <div className="home-intro-text-container">
         <h1 className="h1-main-style home-intro-text-header"> 
-          [Kyle Cannon]
+          {'{ Kyle Cannon }'}
           </h1>
       </div>
   </Layout>
