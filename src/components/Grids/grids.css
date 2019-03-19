@@ -2,3 +2,11 @@
 .grids-spacer {
     flex-grow: 1;
   }
+
+  .grids-card-container {
+    width: 100%;
+  }
+
+  .grids-title {
+    
+  }

@@ -5,3 +5,9 @@
     font-family: Bahnschrift;
     color: white
 }
+
+.whats-next-page-grid-container {
+    display: flex;
+    padding: 100px 20%;
+    overflow: scroll;
+}

@@ -1,7 +1,7 @@
 import React from "react"
 
 import "../components/Home/home.css";
-import "../components/CSS/global.css";
+import "../CSS/global.css";
 import Layout from "../Layout/layout"
 import Video from "../components/Home/video"
 import SEO from "../components/seo"
