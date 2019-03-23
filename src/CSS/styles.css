@@ -1,0 +1,13 @@
+:root {
+    /* BASE STYLE */
+    --black: #373636;
+    --white: white;
+    --grey: #8F9195;
+    --light-grey: #ABA8A5;
+    --blue: #7E9FD1;
+    --light-blue: #D3DDE8;  
+
+    /* ACTIONS */
+    --active: #7E9FD1;
+    --actionable: #e60000;
+}

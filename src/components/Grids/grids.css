@@ -7,6 +7,6 @@
     width: 100%;
   }
 
-  .grids-title {
-    
+  .grids-align-vertical-center {
+    align-items: center;
   }

@@ -6,8 +6,8 @@ const Card = (props) => {
   
   return (
   <div className="grids-card-container">
-    <h1 className="grids-title">{title}</h1>
-    <p className="grids-description" >{description}</p>
+    <h2 className="h2-main-style">{title}</h2>
+    <p className="paragraph-styles-white">{description}</p>
     <a href={link}>
       <img src={imageLink} />
     </a>
