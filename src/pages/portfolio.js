@@ -1,15 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import ProjectCards from '../components/ProjectCards/ProjectCards';
 import Layout from "../Layout/layout"
 import SEO from "../components/seo"
 
 const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio Page" />
-    <h1>Hi this is not yet built... Sorry :-( </h1>
-    <p></p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="protfolio-page-container">
+      <h1>Coming soon!</h1>
+    </div>
   </Layout>
 )
 

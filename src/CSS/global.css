@@ -1,3 +1,8 @@
+.standard-image {
+    width: 100%;
+    height: auto;
+}
+
 .h1-main-style {
     text-transform: uppercase;
     text-decoration: none;
@@ -73,4 +78,11 @@
     padding: 100px 10%;
     text-align: center;
     width: 100%;
+}
+
+/* PORTFOLIO PAGE */
+
+.protfolio-page-container {
+    display: flex;
+    padding: 100px 10%;
 }

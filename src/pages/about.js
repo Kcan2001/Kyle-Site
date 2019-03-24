@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import '../CSS/styles.css'
 import '../CSS/global.css'
 import aboutme from '../images/about.png'
+import resume from '../images/resume.pdf'
+import resumeImg from '../images/resume.png'
 
 import Layout from "../Layout/layout"
 import SEO from "../components/seo"
@@ -40,6 +42,9 @@ const AboutPage = () => (
 
             <br/> 
             <br/> 
+              <a download={"Kyle Cannon Resume"} href={resume}>
+                <img className="standard-image" src={resumeImg}/>
+              </a>
         </div>
       </div>
   </Layout>
