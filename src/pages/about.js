@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import '../CSS/styles.css'
 import '../CSS/global.css'
 import aboutme from '../images/about.png'
@@ -14,7 +14,7 @@ const AboutPage = () => (
     <SEO title="About Page" />
     <div className="about-page-grid-hero">
       <div className="about-page-img-grid">
-        <img className="about-me-img" src={aboutme} alt=""/>
+        <img className="about-me-img" src={aboutme} alt="Kyle Cannon"/>
       </div>
 
         <div className="about-page-inner-text-grid">
@@ -43,7 +43,7 @@ const AboutPage = () => (
             <br/> 
             <br/> 
               <a download={"Kyle Cannon Resume"} href={resume}>
-                <img className="standard-image" src={resumeImg}/>
+                <img className="standard-image" alt="Kyle Cannon Resume" src={resumeImg}/>
               </a>
         </div>
       </div>

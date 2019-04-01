@@ -1,0 +1,11 @@
+{
+    "projects": [
+        {
+            "title": "Black Crow Tours",
+            "description": "Black Crow tours was built with the Django framework on the backend, and pure HTML/CSS on the front. I used googles design patterns to style the flex-box grids. Some JavaScript was added for minor cards and scroll behavior.",
+            "thumbimgsrc": "bct-thumb",
+            "modalimgsrc":"bct-modal",
+            "link": "https://blackcrowtours.com/"
+        }
+    ]
+}

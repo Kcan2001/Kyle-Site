@@ -49,9 +49,12 @@
     font-size: 16px;
     padding: 16px 32px;
     cursor: pointer;
+    letter-spacing: 1.4px;
     margin: 0;
   }
 
   .project-item-link {
+    background-color: transparent;
+    border: none;
     text-decoration: none;
   }

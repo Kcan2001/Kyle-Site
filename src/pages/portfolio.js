@@ -8,7 +8,7 @@ const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio Page" />
     <div className="protfolio-page-container">
-      <h1>Coming soon!</h1>
+      <ProjectCards></ProjectCards>
     </div>
   </Layout>
 )

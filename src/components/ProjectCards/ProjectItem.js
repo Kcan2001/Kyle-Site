@@ -1,14 +1,17 @@
 import React from "react"
 
-const ProjectItem = (props) => (
-    <div className="project-item-container">
-        <img className="project-img" src={props.img} alt=""/>
+const ProjectItem = (props) => {
+    const {onProfileCardClick, title, imgsrc} = props;
+
+    return (<div className="project-item-container">
+        <img className="project-img" src={require(`../../images/${imgsrc}.png`)} alt={title}/>
         <div className="project-text-container">
-            <a className="project-item-link" href={props.link}>
-                <h2 class="project-text h2-main-style">{props.title}</h2>
-            </a>
+            <button className="project-item-link" onClick={onProfileCardClick}>
+                <h2 className="project-text h2-main-style">about</h2>
+            </button>
         </div>
     </div>
-)
+    );
+}
 
 export default ProjectItem

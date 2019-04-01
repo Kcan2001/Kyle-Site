@@ -9,7 +9,7 @@ const Card = (props) => {
     <h2 className="h2-main-style">{title}</h2>
     <p className="paragraph-styles-white">{description}</p>
     <a href={link}>
-      <img src={imageLink} />
+      <img alt={title} src={imageLink} />
     </a>
   </div>
   )};
