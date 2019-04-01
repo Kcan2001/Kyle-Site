@@ -6,6 +6,13 @@
             "thumbimgsrc": "bct-thumb",
             "modalimgsrc":"bct-modal",
             "link": "https://blackcrowtours.com/"
+        },
+        {
+            "title": "Sample API Site",
+            "description": "Sample API site I built in Gatsby to show a sample architecture of React data fetching, actions with Hooks (State and Effects), and minor styling. Could be used as initial boilerplate.",
+            "thumbimgsrc": "sample-api-thumb",
+            "modalimgsrc":"sample-api-modal",
+            "link": "https://peaceful-neumann-4c2db9.netlify.com/"
         }
     ]
 }
