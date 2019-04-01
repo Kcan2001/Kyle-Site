@@ -27,6 +27,10 @@
     color: var(--black);
     background-color: white;
 }
+.header-nav-links:focus {
+    color: var(--black);
+    background-color: white;
+}
 .header-nav-links--active {
     color: var(--black);
     background-color: white;

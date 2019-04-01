@@ -54,6 +54,10 @@ const Modal = styled.div`
     color: var(--black);
     cursor: pointer;
   }
+  &:focus {
+    background-color: white;
+    color: var(--black);
+  }
 }
 
 .modal-image-description-section {
