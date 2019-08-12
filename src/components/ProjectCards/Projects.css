@@ -8,11 +8,20 @@
 }
 
 /* PROJECT ITEMS */
+
 .project-item-container {
-    position: relative;
-    width: 33.33%;
-    padding: 2%;
+  position: relative;
+  width: 100%;
+  padding: 2%;
 }
+
+  @media screen and (min-width: 600px) {
+    .project-item-container {
+      position: relative;
+      padding: 2%;
+      width: 33.33%;
+    }
+  }
 
 .project-item-container--hover {
   position: relative;

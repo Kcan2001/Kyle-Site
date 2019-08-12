@@ -8,12 +8,20 @@
 }
 
 .home-intro-text-container {
-    position: absolute;
     display: block;
-    bottom: 0%;
     background-color: rgba(0,0,0, .8);
-    padding: 40px 40px;
+    padding: 70px 20px;
 }
+
+@media screen and (min-width: 600px) {
+    .home-intro-text-container {
+        position: absolute;
+        display: block;
+        bottom: 0%;
+        background-color: rgba(0,0,0, .8);
+        padding: 40px 40px;
+    }
+  }
 
 .home-intro-text-header {
     text-align: center;

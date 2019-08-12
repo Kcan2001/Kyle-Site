@@ -10,3 +10,24 @@
   .grids-align-vertical-center {
     align-items: center;
   }
+
+  .flex-grid-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 10%;
+  }
+  .grids-contact-container {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .flex-grid-contact {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 100px 50px 0 50px;
+      }
+      .grids-contact-container {
+        width: 300px;
+      }
+    }
