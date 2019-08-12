@@ -4,11 +4,12 @@ import Spacer from '../Grids/spacer'
 import "./header.css"
 import menu from '../../images/menu.png'
 
+const windowGlobal = typeof window !== 'undefined' && window;
 class Header extends React.Component {
 constructor() {
   super();
   this.state = {
-    width: window.innerWidth,
+    width: null,
     isExpanded: false
   };
 }
@@ -22,7 +23,7 @@ componentWillUnmount() {
 }
 
 handleWindowSizeChange = () => {
-  this.setState({ width: window.innerWidth });
+  this.setState({ width: windowGlobal.innerWidth });
 };
 
 handleMenuClick = () => {

@@ -7,11 +7,12 @@ import Layout from "../Layout/layout"
 import Video from "../components/Home/video"
 import SEO from "../components/seo"
 
+const windowGlobal = typeof window !== 'undefined' && window;
 class IndexPage extends React.Component {
 constructor() {
   super();
   this.state = {
-    width: window.innerWidth,
+    width: null,
   };
 }
 
@@ -24,7 +25,7 @@ componentWillUnmount() {
 }
 
 handleWindowSizeChange = () => {
-  this.setState({ width: window.innerWidth });
+  this.setState({ width: windowGlobal.innerWidth });
 };
 
 render() {
