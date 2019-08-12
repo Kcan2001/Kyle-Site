@@ -25,11 +25,23 @@ const Modal = styled.div`
 
   .modal-grid {
   background-color: var(--light-blue);
-  margin: 9% auto;
+  margin: 20% auto;
   padding: 20px 30px;
   border: 1px solid var(--black);
-  width: 60%;
+  width: 90%;
   display: block;
+  }
+
+  @media screen and (min-width: 600px) {
+    .modal-grid {
+      background-color: var(--light-blue);
+      margin: 9% auto;
+      padding: 20px 30px;
+      border: 1px solid var(--black);
+      width: 60%;
+      display: block;
+    }
+  }
 }
 
 .portfolio-close-modal {
@@ -128,9 +140,11 @@ const renderModal = () => {
         </div>
       </div>
 
+    <div className="center-button">
       <button className="portfolio-modal-back-button" onClick={() => setModal(false)}>
         Back to Portfolio Grid
       </button>
+    </div>
     </div>
   )
 } 
