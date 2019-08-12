@@ -14,8 +14,9 @@ constructor() {
   };
 }
 
-componentWillMount() {
+componentDidMount() {
   window.addEventListener('resize', this.handleWindowSizeChange);
+  this.setState({ width: windowGlobal.innerWidth });
 }
 
 componentWillUnmount() {
