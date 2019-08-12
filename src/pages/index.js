@@ -36,7 +36,7 @@ render() {
       <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
         <div className="home-intro-text-container">
-        <img src={norway} className="home-phone-image" />
+        <img src={norway} alt="norway" className="home-phone-image" />
           <h1 className="h1-main-style home-intro-text-header"> 
             {'{ Kyle Cannon }'}
             </h1>
