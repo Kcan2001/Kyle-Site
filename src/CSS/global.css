@@ -70,7 +70,7 @@
     flex-direction: column;
     height: 100%;
     background-color: var(--black);
-    padding: 100px 5%;
+    padding: 40px 5%;
 }
 
 @media screen and (min-width: 600px) {
