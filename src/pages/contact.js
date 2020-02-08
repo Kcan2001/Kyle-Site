@@ -1,6 +1,6 @@
 import React from "react"
 
-import facebook from '../images/facebook.png'
+import linkedin from '../images/linkedin.png'
 import instagram from '../images/instagram.png'
 import mail from '../images/mail.png'
 
@@ -13,15 +13,15 @@ const ContactPage = () => (
     <SEO title="Contact Page" />
   <div className="flex-grid-contact">
     <CardIcon 
-          title="facebook"
-          imageLink={facebook}
-          link="https://www.facebook.com/Kfc4you"/>
+          title="LinkedIn"
+          imageLink={linkedin}
+          link="https://www.linkedin.com/in/kylecannon/"/>
     <CardIcon 
-          title="instagram"
+          title="Instagram"
           imageLink={instagram}
           link="https://www.instagram.com/kyle_a_cannon/"/>
     <CardIcon 
-          title="mail"
+          title="Mail"
           imageLink={mail}
           link="mailto:kyleacannon@gmail.com"/>
   </div>

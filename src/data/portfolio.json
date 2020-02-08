@@ -13,6 +13,13 @@
             "thumbimgsrc": "sample-api-thumb",
             "modalimgsrc":"sample-api-modal",
             "link": "https://peaceful-neumann-4c2db9.netlify.com/"
+        },
+        {
+            "title": "Sample Lazy Loading Site",
+            "description": "Sample API site that demonstrates Webpack bundling and lazying loading.",
+            "thumbimgsrc": "lazy",
+            "modalimgsrc":"lazy",
+            "link": "https://github.com/Kcan2001/sample-lazy-loading-site"
         }
     ]
 }
