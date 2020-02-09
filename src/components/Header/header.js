@@ -46,7 +46,7 @@ render() {
           <div>
             <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links" to="/">{'{ KC }'}</Link>    
             <Spacer />
-            <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links header-whats-next" to="/next/">What's next?</Link>
+            <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links" to="/next/">What's next?</Link>
             <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links" to="/about/">About</Link>
             <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links" to="/blog/">Blog</Link>
             <Link activeClassName="header-mobile-nav-links--active" className="header-mobile-nav-links" to="/portfolio/">Portfolio</Link>
@@ -61,7 +61,7 @@ render() {
       <div className="header-nav">
         <Link activeClassName="header-nav-links--active" className="header-nav-links" to="/">{'{ KC }'}</Link>    
         <Spacer />
-        <Link activeClassName="header-nav-links--active" className="header-nav-links header-whats-next" to="/next/">What's next?</Link>
+        <Link activeClassName="header-nav-links--active" className="header-nav-links" to="/next/">What's next?</Link>
         <Link activeClassName="header-nav-links--active" className="header-nav-links" to="/about/">About</Link>
         <Link activeClassName="header-nav-links--active" className="header-nav-links" to="/blog/">Blog</Link>
         <Link activeClassName="header-nav-links--active" className="header-nav-links" to="/portfolio/">Portfolio</Link>

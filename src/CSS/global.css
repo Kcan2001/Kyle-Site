@@ -3,12 +3,12 @@
     height: auto;
 }
 
-.h1-main-style {
+h1 {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
     font-family: Bahnschrift;
-    color: white
+    color: var(--black)
 }
 
 .h2-main-style {
@@ -29,7 +29,7 @@
     color: var(--black);
 }
 
-.paragraph-styles {
+p {
     font-family: Lato;
     color: var(--black);
 }

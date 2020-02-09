@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header />
-        <div className="layout-top-spacer">
+        <div>
           <main>{children}</main>
         </div>
       </>
