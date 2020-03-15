@@ -150,6 +150,22 @@ p {
     }
   }
 
+/* BLOG PAGE */
+
+.blog-link-container {
+    padding: 5% 20% 0%;
+}
+
+.blog-link-style {
+    display: block;
+    padding: 5px 0;
+}
+
+.blog-link-style a {
+    cursor: pointer;
+}
+
+
 /* PORTFOLIO PAGE */
 
 .protfolio-page-container {

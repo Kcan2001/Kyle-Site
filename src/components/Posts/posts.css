@@ -1,0 +1,32 @@
+.post-card-contianer {
+    padding: 2% 10% 5%;
+}
+
+.post-back-button {
+    cursor: pointer;
+    padding: 20px 0;
+    display: block;
+}
+
+.post-card-title {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.post-card-date {
+    text-align: center;
+    margin: 5px 0 20px;
+}
+
+.post-card-img {
+    width: 50%;
+}
+
+.post-card-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post-html-container {
+    margin: 50px 0 0;
+}

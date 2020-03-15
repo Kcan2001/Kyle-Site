@@ -4,7 +4,6 @@ import { ResponsiveBubbleCanvas } from '@nivo/circle-packing';
 import data from '../data/bubbleChartData.json';
 import styled from "@emotion/styled"
 import "../CSS/global.css";
-import norway from "../images/norway.jpg"
 import Layout from "../Layout/layout"
 import SEO from "../components/seo"
 
