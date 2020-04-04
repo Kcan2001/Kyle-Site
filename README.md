@@ -41,10 +41,12 @@ This is a gatsby based project, so there are some gatsby related files. See belo
 ---
 
 Sometimes there are issues with versioning, if so try removing node_modules and reinstalling: 
-```rm -rf package-lock.json 
+```
+rm -rf package-lock.json 
 rm -rf yarn.lock
 rm -rf node_modules
-npm install```
+npm install
+```
 
 Additionally since gatsby relies on 130+ dependencies, make sure to kee these and gatsby updated... to avoid security issues. Upgrading these versions may require removing and reinstalling node_modules (see above) or audit fixes:
 
