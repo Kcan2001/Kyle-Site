@@ -5,9 +5,9 @@ Hello and welcome to my personal site!
 # How to start
 1) Clone project to local computer
 2) run npm install - ensure python and node are first installed on your computer. 
-If on windows; run "npm install --global --production windows-build-tools" before trying to install.
-3) run "npm start" to start the app 
-main site is on http://localhost:8000/
+If on windows; run `npm install --global --production windows-build-tools` before trying to install.
+3) run ```npm start``` to start the app 
+Main site is on http://localhost:8000/
 GraphQL http://localhost:8000/___graphql
 
 
@@ -39,10 +39,11 @@ This is a gatsby based project, so there are some gatsby related files. See belo
 # TroubleShooting
 ---
 
-Sometimes there are issues with versioning, if so try removing node_modules are reinstalling. 
-
-rm -rf node_modules
-npm install
+Sometimes there are issues with versioning, if so try removing node_modules and reinstalling: 
+```rm -rf package-lock.json ```
+```rm -rf yarn.lock```
+```rm -rf node_modules```
+```npm install```
 
 Additionally since gatsby relies on 130+ dependencies, make sure to kee these and gatsby updated... to avoid security issues. Upgrading these versions may require removing and reinstalling node_modules (see above) or audit fixes:
-npm audit fix
+```npm audit fix```
