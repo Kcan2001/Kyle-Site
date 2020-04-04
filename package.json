@@ -34,7 +34,8 @@
     "video-react": "^0.13.5"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "next": ">=9.3.2"
   },
   "keywords": [
     "gatsby"
