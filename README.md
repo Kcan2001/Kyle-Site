@@ -44,4 +44,5 @@ Sometimes there are issues with versioning, if so try removing node_modules are 
 rm -rf node_modules
 npm install
 
-Additionally since gatsby relies on 130+ dependencies, make sure to kee these and gatsby updated... to avoid security issues. Upgrading these versions may require removing and reinstalling node_modules (see above)
+Additionally since gatsby relies on 130+ dependencies, make sure to kee these and gatsby updated... to avoid security issues. Upgrading these versions may require removing and reinstalling node_modules (see above) or audit fixes:
+npm audit fix
