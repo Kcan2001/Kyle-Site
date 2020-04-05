@@ -30,19 +30,23 @@ h1 {
 }
 
 p {
-    font-family: Lato;
+    font-family: Helvetica;
     color: var(--black);
     margin-bottom: 1rem;
 }
 
+ol, ul, li {
+    font-family: Helvetica;
+}
+
 .paragraph-styles-white {
-    font-family: Lato;
+    font-family: Helvetica;
     color: var(--white);
 }
 
 .paragraph-styles-white-card {
     margin-bottom: 12px;
-    font-family: Lato;
+    font-family: Helvetica;
     color: var(--white);
 }
 
