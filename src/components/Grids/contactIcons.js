@@ -5,7 +5,7 @@ const CardIcon = (props) => {
   const {link, imageLink, title} = props;
   
   return (
-  <div className="grids-contact-container">
+  <div className="contact-icon-container">
     <a href={link}>
       <img className="contact-img" alt={title} src={imageLink} />
     </a>

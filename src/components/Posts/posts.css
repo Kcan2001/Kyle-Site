@@ -1,5 +1,11 @@
 .post-card-contianer {
-    padding: 2% 10% 5%;
+    padding: 20% 5% 5%;
+}
+
+@media screen and (min-width: 600px) {
+    .post-card-contianer {
+        padding: 2% 20% 5%;
+    }
 }
 
 .post-back-button {

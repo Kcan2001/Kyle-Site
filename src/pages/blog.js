@@ -12,14 +12,14 @@ const {allMarkdownRemark} = data;
   return (
   <Layout>
     <SEO title="Blog Page" />
-    <div className="blog-link-container">
+    <div className="pages-container">
 
     <h1>Blog Posts</h1>
 
 
-      {allMarkdownRemark.edges.map(routes => {
+      {allMarkdownRemark.edges.map((routes, index) => {
         return (
-         <span className="blog-link-style">> < Link to={routes.node.frontmatter.path}>{routes.node.frontmatter.title}</Link></span> 
+         <span key={`${routes.node.frontmatter.title}_${index}`} className="blog-link-style">> < Link to={routes.node.frontmatter.path}>{routes.node.frontmatter.title}</Link></span> 
         )
       })}
     </div>

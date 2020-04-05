@@ -32,6 +32,7 @@ h1 {
 p {
     font-family: Lato;
     color: var(--black);
+    margin-bottom: 1rem;
 }
 
 .paragraph-styles-white {
@@ -62,6 +63,19 @@ p {
     margin: 0;
 }
 
+/* PAGES */
+
+.pages-container {
+    padding: 25% 5% 0%;
+}
+
+@media screen and (min-width: 600px) {
+    .pages-container {
+        padding: 5% 20% 0%;
+    }
+}
+    
+
 
 /* WHATS NEXT */
 
@@ -70,7 +84,6 @@ p {
     flex-direction: column;
     height: 100%;
     background-color: var(--black);
-    padding: 40px 5%;
 }
 
 @media screen and (min-width: 600px) {
@@ -78,7 +91,6 @@ p {
         display: flex;
         height: 100%;
         background-color: var(--black);
-        padding: 100px 20%;
     }
   }
 
@@ -153,8 +165,15 @@ p {
 /* BLOG PAGE */
 
 .blog-link-container {
-    padding: 5% 20% 0%;
+    padding: 20% 20% 0%;
 }
+
+@media screen and (min-width: 600px) {
+    .blog-link-container {
+        padding: 5% 20% 0%;
+    }
+}
+
 
 .blog-link-style {
     display: block;
@@ -164,18 +183,3 @@ p {
 .blog-link-style a {
     cursor: pointer;
 }
-
-
-/* PORTFOLIO PAGE */
-
-.protfolio-page-container {
-    display: flex;
-    padding: 50px 5%;
-}
-
-@media screen and (min-width: 600px) {
-    .protfolio-page-container {
-        display: flex;
-        padding: 100px 10%;
-    }
-  }

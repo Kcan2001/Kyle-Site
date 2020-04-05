@@ -27,9 +27,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px 10%;
+    padding: 25% 5% 0%;
   }
-  .grids-contact-container {
+  .contact-icon-container {
     width: 100%;
     margin-bottom: 26px;
   }
@@ -37,10 +37,10 @@
   @media screen and (min-width: 600px) {
     .flex-grid-contact {
         display: flex;
+        padding: 5% 10% 0%;
         justify-content: space-evenly;
-        padding: 100px 50px 0 50px;
       }
-      .grids-contact-container {
+      .contact-icon-container {
         width: 300px;
       }
     }

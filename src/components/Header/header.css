@@ -9,7 +9,7 @@
 }
 
 .header-mobile-nav {
-    position: fixed;
+    position: absolute;
     display: flex;
     z-index: 100;
     padding: 15px;

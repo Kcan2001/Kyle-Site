@@ -7,13 +7,6 @@ import "../CSS/global.css";
 import Layout from "../Layout/layout"
 import SEO from "../components/seo"
 
-const HomeLayout = styled.div`
-margin: 10% 0;
-
-  @media (min-width: 420px) {
-    padding: 0 20%;
-  }
-`
 
 const BubbleChartContainer = styled.div`
   display: none;
@@ -154,7 +147,7 @@ render() {
     return (
       <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <HomeLayout>
+        <div className="pages-container">
           <h1 style={{textAlign: 'center'}}>Hi, I'm Kyle!</h1>
           <p>
               I like to program and such. 
@@ -223,7 +216,7 @@ render() {
   </React.Fragment>
 }
 
-        </HomeLayout>
+        </div>
     </Layout>
     );
 }

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio Page" />
-    <div className="protfolio-page-container">
+    <div style={{display: "flex"}} className="pages-container">
       <ProjectCards></ProjectCards>
     </div>
   </Layout>

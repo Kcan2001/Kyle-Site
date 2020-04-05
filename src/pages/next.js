@@ -8,7 +8,7 @@ import Card from '../components/Grids/card'
 const NextPage = () => (
   <Layout>
     <SEO title="What's Next Page" />
-    <div className="whats-next-page-grid-container">
+    <div className="pages-container whats-next-page-grid-container">
         <Card 
             title="{ Developing } Customer Journeys " 
             description="Talk given on September 19th, 2019 (Slides provided below)"
