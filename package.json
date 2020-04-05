@@ -34,7 +34,6 @@
     "video-react": "^0.13.5"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.9.0",
     "next": ">=9.3.2",
     "prettier": "^1.16.4"
   },
