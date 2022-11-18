@@ -11,7 +11,7 @@
     "aws-amplify": "^2.3.0",
     "classnames": "^2.2.6",
     "formik": "^2.1.4",
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-emotion": "^4.2.1",
     "gatsby-plugin-manifest": "^2.3.3",
